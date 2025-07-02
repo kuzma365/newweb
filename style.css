@@ -1,0 +1,89 @@
+body, html{
+margin: 0;
+padding: 0;
+font-family: 'segoe UI',sans-serif;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background: url('d1.jpeg') no-repeat center center/cover;
+}
+
+.login-box{
+    justify-content:  first baseline;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    padding: 40px;
+    width: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(15px);
+    color: #fff;
+}
+
+
+.login-box h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.input-box{
+
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-box1 input{
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    color: #fff;
+    outline: none;
+}
+
+.input-box label{
+
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: #fff;
+    pointer-events: none;
+    transition: 0.3s;
+}
+
+.input-box input:focus + label,
+.input-box input:valid + label {
+    top: -15px;
+    font-size: 12px;
+    color: #ddd;
+}
+
+.options a {
+    color: #fff;
+    text-decoration: none;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background: #ffffff44;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+button:hover{
+    background: #ffffff66; 
+}
+.login-box p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.login-box a {
+    color: #fff;
+    text-decoration: underline;
+}
